@@ -208,6 +208,10 @@ body {
   background: #855fb1;
 }
 
+.btn__download--footer span {
+  color: #d9bbff;
+}
+
 @media screen and (min-width: 768px) {
   #page-content {
     max-width: 950px;
@@ -308,5 +312,18 @@ body {
     width: 300px;
     text-align: left;
     font-size: 40px;
+  }
+
+  .btn {
+    cursor: pointer;
+  }
+
+  .btn__download:hover {
+    background-color: #71c0d4;
+  }
+
+  .btn__what:hover,
+  .btn__download--footer:hover {
+    background-color: #b188dd;
   }
 }
