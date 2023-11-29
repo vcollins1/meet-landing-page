@@ -14,7 +14,6 @@ body {
 #page-content {
   max-width: 700px;
   margin: 0 auto;
-  height: 100vh;
 }
 
 .main-header {
@@ -233,12 +232,16 @@ body {
     width: 689px;
   }
 
+  .photos img {
+    width: 164px;
+  }
+
   .hero__content {
     width: 460px;
   }
 
   .main-content {
-    width: 600px;
+    width: 540px;
   }
 
   .main-content h2 {
@@ -309,6 +312,15 @@ body {
 
   .btn-group .btn {
     margin-bottom: 0;
+  }
+
+  .photos {
+    width: 1110px;
+    margin: 0 auto 64px;
+  }
+
+  .photos img {
+    width: 255px;
   }
 
   .footer {
